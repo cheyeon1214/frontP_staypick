@@ -1,12 +1,11 @@
 import Button from "./components/Button";
 import "./styles/common.css"; 
+import "./styles/index.css";
 
 const root = document.getElementById("root");
 
-const searchBtn = Button({
-    label: "게스트하우스 검색하기",
-    onClick: () => alert("검색 버튼 클릭됨!"),
-    className: "main-btn"
-});
+const jumbo = document.createElement('div');
+jumbo.className = 'jumbotron';
 
-root.append(searchBtn);
+
+root.append(jumbo,);
