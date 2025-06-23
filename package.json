@@ -23,5 +23,13 @@
   },
   "dependencies": {
     "html-webpack-plugin": "^5.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjungs2/frontP_staypick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yjungs2/frontP_staypick/issues"
+  },
+  "homepage": "https://github.com/yjungs2/frontP_staypick#readme"
 }
