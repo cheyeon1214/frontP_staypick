@@ -1,0 +1,27 @@
+{
+  "name": "frontp_staypick",
+  "version": "1.0.0",
+  "description": "front project(staypick) about guesthouse platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3"
+  }
+}

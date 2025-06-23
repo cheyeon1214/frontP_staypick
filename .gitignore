@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# production build
+/dist
+
+# dotenv 환경 변수
+.env
+
+# logs
+*.log
+
+# macOS 시스템 파일
+.DS_Store
+
+# VS Code 설정 폴더
+.vscode/
