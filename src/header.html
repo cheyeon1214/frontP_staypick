@@ -7,19 +7,35 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    #header {
+        box-sizing: border-box;
+        width: 1000px;
+        
+    }
+    #header-left, #header-right {
+        width: 500px;
+        display: right;
+    }
+    button {
+        color: white;
+        text-align: center;
+        background-color: #067975;
+    }
+</style>
 </head>
 <body>
-<div id="header">
-<div id="header-left">
-    <img alt="" src="./images/logo_color.png"/>
-</div>
-<div id="header-right">
-    <a><ins>KOR</ins></a>
-    &nbsp; &nbsp; <!-- css 할 때 padding 쓰기 -->
-    <a>ENG</a>
-    &nbsp; &nbsp;
-    <button>로그인</button>
-</div>
+<nav class="navbar" id="header">
+    <div id="header-left">
+        <!-- <img alt="" src="./images/logo_color.png"/> -->
+    </div>
+    <div id="header-right">
+        <a><ins>KOR</ins></a>
+        &nbsp; &nbsp; <!-- css 할 때 padding 쓰기 -->
+        <a>ENG</a>
+        &nbsp; &nbsp;
+        <button>로그인</button>
+</nav>
 
 </div>
 </body>
